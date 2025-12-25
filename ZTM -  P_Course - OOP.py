@@ -15,7 +15,42 @@ print("Hellow world!")
 
 
 # ////////////////////////////////////////////////////////////////
+# Lesson: What is OOP? Part 2
+
+class BigObject:
+    pass
+
+obj1 = BigObject()
+
+print(type(obj1))
+
+# every new word in a new datatypse has to have a capital letter. 
+# A class is a blueprint of the object. from that blueprint you are able to create different objects over and over using this blueprint as the building block. 
+
+# Class -> Instantiate -> Instances 
+
+# Class         = New DataType
+# Instantiate   = Create the New Datatype
+# Instance      = Object based on the New Datatype
+
+# Instantiating a new class, allows for programmers to refer back to that one code block without keep repeating and going over new code in order work with a new data type like a function, because instiatntiating a new class would be asigning python the code to memory where you can always then reuse it. 
+# ////////////////////////////////////////////////////////////////
+
+
+
+
+
+# ////////////////////////////////////////////////////////////////
 # Lesson:
+
+
+
+# ////////////////////////////////////////////////////////////////
+
+
+
+
+
 
 
 
@@ -27,8 +62,8 @@ print("Hellow world!")
 
 
 # ////////////////////////////////////////////////////////////////
-
-
-# ////////////////////////////////////////////////////////////////
 # Lesson:
+
+
+
 # ////////////////////////////////////////////////////////////////
