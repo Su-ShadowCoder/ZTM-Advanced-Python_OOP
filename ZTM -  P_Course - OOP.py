@@ -1,4 +1,4 @@
-print("Hellow world!")
+# print("Hellow world!")
 
 
 # ////////////////////////////////////////////////////////////////
@@ -17,12 +17,12 @@ print("Hellow world!")
 # ////////////////////////////////////////////////////////////////
 # Lesson: What is OOP? Part 2
 
-class BigObject:
-    pass
+# class BigObject:
+#     pass
 
-obj1 = BigObject()
+# obj1 = BigObject()
 
-print(type(obj1))
+# print(type(obj1))
 
 # every new word in a new datatypse has to have a capital letter. 
 # A class is a blueprint of the object. from that blueprint you are able to create different objects over and over using this blueprint as the building block. 
@@ -43,13 +43,37 @@ print(type(obj1))
 # ////////////////////////////////////////////////////////////////
 # Lesson:
 
+# new classes usualy are in singular not plural because it is a blueprint. And from this blueprint which is the class, we can create more objects, so that is why classes are usually defined as singular. like here the example here below:
+
+# class PlayerCharacter:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+
+#     def run(self):
+#         print('run')
+#         return 'done'
+
+# player1 = PlayerCharacter('Cindy', 44)
+# player2 = PlayerCharacter('Tom', 21)
+# player2.attack = 50
 
 
+# print(player1)
+# print(player2)
+
+
+# so self is like append to list, but for instantiating a new class. and whenever you use the self method in creating a new class or adding a new parameter to the class you use self. so that the class has a new 'attribute'.
+# which makes the the class dynamic, based on the attributes on what we assign it to be.  
+
+# player one and player 2 are at different location in memory. This way we are able to keep things safe. 
 # ////////////////////////////////////////////////////////////////
 
 
 
 
+# ////////////////////////////////////////////////////////////////
+# Lesson: Attributes and Methods
 
 
 
@@ -57,6 +81,15 @@ print(type(obj1))
 
 
 
+
+
+
+
+
+
+
+
+# ////////////////////////////////////////////////////////////////
 
 
 
